@@ -1,0 +1,14 @@
+{
+  "name": "Whipple Electric Inc",
+  "short_name": "Whipple Electric",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0a1628",
+  "background_color": "#0a1628",
+  "display": "standalone"
+}

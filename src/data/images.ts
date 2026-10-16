@@ -1,0 +1,33 @@
+export const images = {
+  heroElectrician: 'https://images.pexels.com/photos/27928762/pexels-photo-27928762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  panelWork: 'https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  outdoorPanel: 'https://images.pexels.com/photos/17924298/pexels-photo-17924298.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  electricianGear: 'https://images.pexels.com/photos/17842832/pexels-photo-17842832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  panelDrill: 'https://images.pexels.com/photos/27928759/pexels-photo-27928759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  wiring: 'https://images.pexels.com/photos/7937305/pexels-photo-7937305.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  wiringWall: 'https://images.pexels.com/photos/3615735/pexels-photo-3615735.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  panelWiring: 'https://images.pexels.com/photos/28950842/pexels-photo-28950842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  wiringOpen: 'https://images.pexels.com/photos/3615731/pexels-photo-3615731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  switchboard: 'https://images.pexels.com/photos/8488029/pexels-photo-8488029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  electricianPortrait: 'https://images.pexels.com/photos/33694016/pexels-photo-33694016.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  technicianRepair: 'https://images.pexels.com/photos/38709532/pexels-photo-38709532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  multimeter: 'https://images.pexels.com/photos/33531830/pexels-photo-33531830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  pendantLights: 'https://images.pexels.com/photos/40242720/pexels-photo-40242720.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  globeLights: 'https://images.pexels.com/photos/10508622/pexels-photo-10508622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  glassLights: 'https://images.pexels.com/photos/7518747/pexels-photo-7518747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  wallLamp: 'https://images.pexels.com/photos/33307416/pexels-photo-33307416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  houseNight: 'https://images.pexels.com/photos/12700807/pexels-photo-12700807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+};
+
+export const serviceImages: Record<string, string> = {
+  'electrical-troubleshooting': images.multimeter,
+  'electrical-panel-upgrades': images.panelWiring,
+  'circuit-breaker-repair': images.panelDrill,
+  'electrical-wiring': images.wiringWall,
+  'outlet-switch-installation': images.wiring,
+  'lighting-installation': images.globeLights,
+  'ceiling-fan-installation': images.glassLights,
+  'electrical-safety-inspection': images.electricianGear,
+  'commercial-electrical': images.switchboard,
+  'renovation-electrical': images.wiring,
+};
